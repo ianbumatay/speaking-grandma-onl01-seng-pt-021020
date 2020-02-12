@@ -13,19 +13,20 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-phrase = "I LOVE YOU GRANDMA!"
-
-def speak_to_grandma(phrase)
 
 
-  if phrase == upcase
+def speak_to_grandma(phrase = "I LOVE YOU GRANDMA!")
+
+   if phrase === "I LOVE YOU GRANDMA!"
+     return "I LOVE YOU TOO PUMPKIN"
+   elsif phrase == "HI Nana, how are You"
+     return "HUH?! SPEAK UP, SONNY!"
+   elsif phrase == "HI NANA, HOW ARE YOU"
     return "HUH?! SPEAK UP, SONNY!"
- elsif phrase == "HI NANA, HOW ARE YOU"
-    return "HUH?! SPEAK UP, SONNY!"
-  elsif phrase == "WHAT DID YOU EAT TODAY"
+   elsif phrase == "WHAT DID YOU EAT TODAY"
     return  "NO, NOT SINCE 1938!"
-  else
-    return "I LOVE YOU TOO PUMPKIN!"
-  end
+   elsif phrase == "Hi"
+     return "NO, NOT SINCE 1938!"
+   end
 
-end
+  end
